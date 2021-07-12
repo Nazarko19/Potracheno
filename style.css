@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main {
+    background: linear-gradient(180deg, #222220 0%, #222220 11.92%, rgba(34, 34, 32, 0.87) 29.17%, rgba(34, 34, 32, 0.88) 71.8%, #222220 100%)
+
+}
+body{
+    width: 1600px;
+    /*height: 5000px;*/
+
+}
+
+.wrapper {
+    padding: 0 205px;
+}
+
+.header {
+    /*background: black;*/
+    padding-top: 34px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.alight-center {
+    align-items: center;
+}
+
+.header_nav_menu {
+    padding-left: 378px;
+    column-gap: 42px;
+}
+
+.nav_menu {
+    column-gap: 25px;
+}
+
+.nav_menu_item a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header_buttons {
+    column-gap: 30px;
+}
+
+.box1 {
+    background: #1B1B1B;
+    box-shadow: 0px 0px 15.1515px rgba(189, 45, 67, 0.5);
+    border-radius: 7.57576px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.box2 {
+    background: #CB3B48;
+    box-shadow: 0px 0px 15.1515px rgba(189, 45, 67, 0.5);
+    border-radius: 7.57576px;
+    height: 50px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.box3 {
+    background: #CB3B48;
+    border: 1px solid #CB3B48;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 15px 18px;
+}
+.first_screen{
+    padding-left: 277px;
+    padding-top: 147px;
+}
+
+.first_screen_1 {
+    padding: 319px 277px;
+    background-image: url("imagn/first_screen.svg");
+}
+.first_screen_2{
+    padding-left: 220px;
+}
+.first_screen_2_buttons{
+    column-gap: 50px;
+
+}
+.button_one{
+    background: #CB3B48;
+    border: 1.48px solid #CB3B48;
+    box-sizing: border-box;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 7.4px;
+    width: 385.53px;
+    height: 74px;
+    font-size: 23.68px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.button_two{
+    background: #FFFFFF;
+    border: 1.48px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 7.4px;
+    width: 385.53px;
+    height: 74px;
+    font-size: 23.68px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CB3B48;
+}
+.second_screen{
+    padding-top: 183px;
+    column-gap: 77px;
+    margin-bottom: 123px;
+}
+.second_screen_left1{
+    width: 73px;
+    height: 5px;
+    background: #C93A48;
+    box-shadow: 0px 0px 30px #BD2D43;
+    padding-top: 9px;
+}
+.second_screen_left2{
+    width: 295px;
+    height: 106px;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.32);
+    padding-top: 9px;
+}
+.second_screen_left_3{
+    width: 167.39px;
+    height: 34.97px;
+    background: linear-gradient(0deg, #C93A48, #C93A48), #FFFFFF;
+    box-shadow: 0px 0px 30px #BD2D43;
+    border-radius: 7.75484px;
+    transform: rotate(-30deg);
+    font-size: 17.0607px;
+    line-height: 127.3%;
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(-30deg);
+    padding: 9px 10px;
+
+}
+.second_screen_left3{
+    padding-left: 230px;
+}
+.second_screen_left4 p{
+    max-width: 577px;
+    size: 18px;
+    line-height: 23px;
+    color: #8F8F8F;
+    text-align: left;
+}
+.second_screen_left4{
+    padding-top: 74px;
+}
+.second_screen_left_5 a{
+    color: #FFFFFF;
+}
+.second_screen_left5{
+  padding-top: 30px;
+}
+.second_screen_right1{
+    column-gap: 17px;
+}
+.second_screen_right_1{
+    padding-left: 370px;
+    margin-bottom: 32px;
+}
+.second_screen_right_3{
+    width: 59px;
+    height: 2px;
+    background: #696969;
+    border-radius: 100px;
+}
+.second_screen_right3{
+    column-gap: 8px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.second_screen_right_3_1{
+    column-gap: 20px;
+    padding-left: 81px;
+}
+.second_screen_right_3_2{
+    border: 1.5px solid #696969;
+    box-sizing: border-box;
+    transform: rotate(-180deg);
+    width: 45px;
+    height: 0px;
+}
+.second_screen_right_3_3{
+    border: 1.5px solid #C93A48;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #C93A48;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    width: 45px;
+    height: 0px;
+}
+.second_screen_right_3_red{
+    width: 59px;
+    height: 2px;
+    background: #C93A48;
+    border-radius: 100px;
+}
+.three_screen{
+    background-image: url("imagn/three_backgraund.png");
+}
+.three_screen_1 {
+    /*width: 310px;*/
+    height: 35px;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 120px;
+    margin-bottom: 70px;
+    padding-left: 205px;
+}
+.three_screen_2{
+    column-gap: 23px;
+    padding-left: 100px;
+}
+.three_screen_3{
+    padding-left: 750px;
+    margin-bottom: 20px;
+    padding-top: 34px;
+}
+
+.four_screen{
+    padding-top: 115px;
+    column-gap: 52px;
+    padding-left: 120px;
+}
+.four_screen_right{
+    padding-top: 100px;
+}
+.four_screen_right_1{
+    width: 73px;
+    height: 5px;
+    background: #C93A48;
+    box-shadow: 0px 0px 30px #BD2D43;
+    margin-bottom: 8px;
+}
+.four_screen_right_2{
+    width: 363px;
+    height: 102px;
+    font-size: 34px;
+    line-height: 98.8%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.32);
+}
+.four_screen_right_3{
+    width: 508px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8F8F8F;
+    margin-bottom: 56px;
+}
+.four_screen_right_4{
+    column-gap: 22px;
+}
+.four_screen_left{
+    margin-bottom: 18px;
+}
+.five_screen{
+    margin-bottom: 30px;
+}
+.five_screen_1_1{
+    width: 283px;
+    height: 56px;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 51px;
+}
+.five_screen_1_2, .five_screen_1_6 {
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 289px;
+}
+.five_screen_1_3_2, .five_screen_1_4_2, .five_screen_1_5_2 {
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 353px;
+}
+.five_screen_1_7{
+    width: 353px;
+    height: 50px;
+    background: #CB3B48;
+    border: 1.48px solid #CB3B48;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+
+
+}
+.five_screen_1_7_1 {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 14px 56px;
+}
+.five_screen_1_5{
+    margin-bottom: 39px;
+}
+.five_screen_1_8{
+    padding-top: 32px;
+}
+.five_screen_2_1{
+    width: 1px;
+    height: 444px;
+    background: #525252;
+}
+.five_screen_2{
+    padding-left: 71px;
+}
+.five_screen_3{
+    padding-left: 67px;
+}
+.five_screen_3_2{
+    column-gap: 26px;
+    padding-left: 140px;
+}
+.five_screen_3_2_1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.five_screen_3_2_2{
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.six_screen{
+    padding-top: 40px;
+    height: 180px;
+    background-image: url("imagn/six_backgraund.png");
+    background-color: #161615;
+}
+.six_screen_1{
+column-gap: 134px;
+}
+.six_screen_1_grid{
+    column-gap: 87px;
+    padding-left: 100px;
+}
+
+.nav_menu_2 a {
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #DCDCDC;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+
+.six_screen_2_1{
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #BD2D43;
+    margin-bottom: 5px;
+
+}
+.six_screen_2_2{
+    font-size: 12px;
+    line-height: 14px;
+    color: #8F8F8F;
+    text-align: right;
+    margin-bottom: 21px;
+}
+.six_screen_2_3{
+    column-gap: 15px;
+    justify-content: flex-end;
+}
+
+.six_screen_3_grid{
+    column-gap: 21px;
+
+}
+.six_screen_3_1 a{
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #9C9C9C;
+}
+.six_screen_3_2{
+    font-size: 14px;
+    line-height: 16px;
+    color: #9C9C9C;
+    padding-left: 150px;
+}
+
+
+
+
+
+
+
